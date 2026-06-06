@@ -5,7 +5,6 @@
     "title": "UI/UX DESIGNER | JAVA | DEVELOPER | DSA|",
     "description": "I am an aspiring UI/UX Designer and B.Com E-Commerce undergraduate passionate about creating intuitive, user-centered digital experiences. With a growing foundation in design thinking, wireframing, prototyping, HTML, CSS, and Java, I enjoy transforming ideas into meaningful solutions while continuously learning, improving, and exploring innovative technologies.",
     "interests": [
-      "Spending lone time",
       "Writing Poems",
       "Designing"
     ]
@@ -39,30 +38,36 @@
   "resume": {
     "education": [
       {
-        "inst": "State Board",
-        "dates": "2018-2020",
-        "name": "HSC",
-        "percentage": "92%"
-      },
-      {
-        "inst": "State Board",
-        "dates": "2016-2018",
         "name": "SSLC",
-        "percentage": "95%"
+        "inst": "State Board",
+        "dates": "2021",
+        "percentage": "73.40%"
       },
       {
-        "name": "MCA",
-        "inst": "Anna University",
-        "dates": "2024-2026",
-        "percentage": "90%"
+        "name": "HSC",
+        "inst": "State Board (11th)",
+        "dates": "2022",
+        "percentage": "91.67%"
+      },
+      {
+        "name": "HSC",
+        "inst": "State Borad (12th)",
+        "dates": "2023",
+        "percentage": "93.17%"
+      },
+      {
+        "name": "B.Com (E-Commerce)",
+        "inst": "KPR College of Arts Science and Research",
+        "dates": "2024-2027",
+        "percentage": "CGPA-8%"
       }
     ],
     "experience": [
       {
-        "role": "Quality Engineer",
-        "dates": "Jun 2024 - Present",
-        "company": "Tech Corp",
-        "desc": "Led automation testing with Selenium/Cucumber, reduced bugs by 40%."
+        "role": "",
+        "company": "bout",
+        "dates": "",
+        "desc": "I am a B.Com E-Commerce undergraduate with a passion for UI/UX design, technology, and creative problem-solving. I enjoy creating user-centered digital experiences and continuously developing my skills in design, HTML, CSS, and Java. Beyond academics, I serve as the Vice President of the B.Com E-Commerce Department at KPR College, where I contribute to student activities and event coordination. I have also presented a research paper at an international conference on Digital Trade and Artificial Intelligence. Alongside my interest in technology, I enjoy creative writing and expressing ideas through Tamil poetry. My goal is to build impactful digital solutions while growing as a creative and technology-driven professional."
       }
     ],
     "technicalSkills": [
@@ -105,139 +110,25 @@
     },
     "colleagues": [
       {
-        "code": "M1",
-        "name": "John Doe",
-        "spec": "BCA",
-        "working": "Google",
-        "exp": "5 years",
-        "workDesc": "Senior Software Engineer leading cloud projects",
-        "image": "assets/codeLogo.webp",
-        "email": "john.doe@gmail.com",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "category": "Mentor",
-        "href": "https://johndoe.com"
-      },
-      {
-        "code": "M2",
-        "name": "Alice Johnson",
-        "spec": "MCA",
-        "working": "Amazon",
-        "exp": "4 years",
-        "workDesc": "DevOps Engineer optimizing CI/CD pipelines",
-        "image": "assets/minesGame.webp",
-        "email": "alice.johnson@amazon.com",
-        "linkedin": "https://linkedin.com/in/alicejohnson",
-        "category": "Mentor",
-        "href": "https://alicejohnson.dev"
-      },
-      {
-        "code": "M3",
-        "name": "Eva Davis",
-        "spec": "MCA",
-        "working": "Tesla",
-        "exp": "7 years",
-        "workDesc": "AI/ML Engineer building autonomous systems",
-        "image": "assets/minesGame.webp",
-        "email": "eva.davis@tesla.com",
-        "linkedin": "https://linkedin.com/in/evadavis",
-        "category": "Mentor"
-      },
-      {
-        "code": "E1",
-        "name": "Jane Smith",
-        "spec": "BCA",
-        "working": "Microsoft",
-        "exp": "3 years",
-        "workDesc": "Frontend Developer on Azure portal",
-        "image": "assets/geminiChat.webp",
-        "category": "External Connect"
-      },
-      {
         "code": "B1",
         "name": "Ganesh",
         "spec": "Engineer | Programmer",
         "working": "Tata Consultancy Services",
-        "exp": "1.8 years",
-        "workDesc": "Engineer | Programmer with hands-on experience in L3 desktop and endpoint support within enterprise environments.",
-        "image": "assets/geminiChat.webp",
-        "email": "ganesh@example.com",
-        "phone": "+919876543210",
-        "linkedin": "https://linkedin.com/in/your-profile",
-        "facebook": "https://facebook.com/your-profile",
-        "instagram": "https://instagram.com/your-profile",
-        "x": "https://x.com/your-profile",
+        "exp": "1.10 years",
         "category": "Buddies",
-        "href": "https://yourportfolio.com"
-      },
-      {
-        "code": "E4",
-        "name": "David Brown",
-        "spec": "BCA",
-        "working": "Netflix",
-        "exp": "1 year",
-        "workDesc": "Data Engineer handling streaming analytics",
-        "image": "assets/geminiChat.webp",
-        "category": "External Connect"
-      },
-      {
-        "code": "E5",
-        "name": "Carol Lee",
-        "spec": "B.Tech",
-        "working": "Apple",
-        "exp": "6 years",
-        "workDesc": "iOS Developer on core apps",
-        "image": "assets/codeLogo.webp",
-        "category": "External Connect"
-      },
-      {
-        "code": "E6",
-        "name": "External VIP",
-        "spec": "M.Tech",
-        "working": "Stripe",
-        "exp": "8 years",
-        "workDesc": "Payments Architect",
-        "image": "assets/codeLogo.webp",
-        "category": "External Connect"
+        "image": "assets/Ganesh.jpg",
+        "workDesc": "Engineer | Programmer with hands-on experience in L3 desktop and endpoint support within enterprise environments.",
+        "email": "ganeshdinovator@gmail.com",
+        "phone": "+91 9791705293",
+        "linkedin": "https://www.linkedin.com/in/ganesh-s-a7b614271/",
+        "facebook": "https://www.facebook.com/profile.php?id=100027937021821",
+        "instagram": "https://www.instagram.com/_dark_hunter_01_",
+        "x": "#",
+        "href": "https://ganesh-og.github.io/G/"
       }
     ]
   },
-  "certifications": [
-    {
-      "provider": "Coursera",
-      "date": "2024",
-      "name": "Selenium Automation",
-      "desc": "Mastered Selenium WebDriver with Java.",
-      "image": "assets/geminiChat.webp"
-    },
-    {
-      "provider": "edX",
-      "date": "2025",
-      "name": "Quality & Test Automation",
-      "desc": "Advanced practices in automation strategy and verification.",
-      "image": "assets/cert-quality-automation.jpg"
-    },
-    {
-      "provider": "Pluralsight",
-      "date": "2024",
-      "name": "Java Testing with JUnit",
-      "desc": "Best testing patterns and JUnit 5 practical exercises.",
-      "image": "assets/cert-junit.jpg"
-    },
-    {
-      "provider": "LinkedIn Learning",
-      "date": "2023",
-      "name": "Test Management with Jira",
-      "desc": "Test case planning and traceability using Jira workflows.",
-      "image": "assets/cert-jira-testing.jpg"
-    },
-    {
-      "provider": "IBM",
-      "date": "2025",
-      "name": "DevOps & Release Management",
-      "desc": "CI/CD pipeline engineering and release governance.",
-      "image": "assets/cert-devops-release.jpg"
-    }
-  ],
+  "certifications": [],
   "contact": {
     "email": "anuvarshini@example.com"
   },
