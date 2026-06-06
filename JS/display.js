@@ -81,7 +81,7 @@ async function loadDynamicContent() {
       const expEl = document.getElementById("resume-experience");
       if (expEl && data.resume.experience) {
         expEl.innerHTML = `
-          <h3>Experience</h3>
+          <h3>About</h3>
           ${data.resume.experience.map((x) => `
             <div class="timeline-item">
               <h4>${x.role} @ ${x.company}</h4>
