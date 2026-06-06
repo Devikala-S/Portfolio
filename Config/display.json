@@ -1,9 +1,9 @@
 {
   "hero": {
-    "profileImage": "assets/Devikala.png",
+    "profileImage": "assets/Devikala  S.jpg",
     "name": "Devikala S",
     "title": "UI/UX DESIGNER | JAVA | DEVELOPER | DSA|",
-    "description": "I am an aspiring UI/UX Designer and B.Com E-Commerce undergraduate passionate about creating intuitive, user-centered digital experiences. With a growing foundation in design thinking, wireframing, prototyping, HTML, CSS, and Java, I enjoy transforming ideas into meaningful solutions while continuously learning, improving, and exploring innovative technologies.",
+    "description": "A creative thinker with a passion for UI/UX design, technology, and innovation. I enjoy designing user-centered experiences, solving problems through design, and expressing creativity through Tamil poetry. Driven by curiosity and continuous learning, I strive to create meaningful and impactful digital solutions.",
     "interests": [
       "Writing Poems",
       "Designing"
@@ -74,6 +74,26 @@
       {
         "name": "Figma",
         "icon": "fa-brands fa-figma"
+      },
+      {
+        "name": "Canva",
+        "icon": "fa-solid fa-wand-sparkles"
+      },
+      {
+        "name": "Adobe Express",
+        "icon": "fa-solid fa-file-excel"
+      },
+      {
+        "name": "Java",
+        "icon": "fa-brands fa-java"
+      },
+      {
+        "name": "html",
+        "icon": "fa-solid fa-code"
+      },
+      {
+        "name": "css",
+        "icon": "fa-brands fa-css3"
       }
     ],
     "pdfUrl": "assets/resume.pdf",
@@ -128,7 +148,22 @@
       }
     ]
   },
-  "certifications": [],
+  "certifications": [
+    {
+      "name": "UI/UX for Beginners",
+      "provider": "Great Learning",
+      "date": "2024",
+      "image": "assets/UIUX.png",
+      "desc": "I am an aspiring UI/UX Designer and B.Com E-Commerce undergraduate passionate about creating intuitive, user-centered digital experiences. With a growing foundation in design thinking, wireframing, prototyping, HTML, CSS, and Java, I enjoy transforming ideas into meaningful solutions while continuously learning, improving, and exploring innovative technologies."
+    },
+    {
+      "name": "Frontend Development -  HTML",
+      "provider": "Great Learning",
+      "date": "2024",
+      "image": "assets/HTML.png",
+      "desc": "I am an aspiring UI/UX Designer and B.Com E-Commerce undergraduate passionate about creating intuitive, user-centered digital experiences. With a growing foundation in design thinking, wireframing, prototyping, HTML, CSS, and Java, I enjoy transforming ideas into meaningful solutions while continuously learning, improving, and exploring innovative technologies."
+    }
+  ],
   "contact": {
     "email": "anuvarshini@example.com"
   },
