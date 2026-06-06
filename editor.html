@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Anuvarshini | Quality Engineer</title>
+    <meta
+      name="description"
+      content="Quality Engineer portfolio with expertise in manual and automation testing."
+    />
+    <meta
+      name="keywords"
+      content="Quality Engineer, Selenium, Cucumber, Tosca, Jira, Testing, Automation, Resume, Certifications"
+    />
+    <meta name="author" content="Anuvarshini S K" />
+    <meta name="robots" content="index, follow" />
+    <!-- <link rel="icon" type="image/webp" href="assets/codeLogo.webp" /> -->
+
+    <meta name="theme-color" content="#346ce4" />
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- Preloads -->
+    <link
+      rel="preload"
+      href="assets/codeLogo.webp"
+      as="image"
+      type="image/webp"
+    />
+    <link rel="preload" href="JS/script.js" as="script" />
+  </head>
+  <body class="editor-page">
+    <div class="editor-toolbar">
+      <div class="editor-toolbar__title">
+        <strong>Portfolio Editor</strong>
+        <span id="editor-status">Ready to edit</span>
+      </div>
+      <div class="editor-toolbar__actions">
+        <button type="button" id="editor-reset" class="editor-toolbar__btn">
+          Reset
+        </button>
+        <button type="button" id="editor-save" class="editor-toolbar__btn editor-toolbar__btn--primary">
+          Save JSON
+        </button>
+      </div>
+    </div>
+    <header class="main-header">
+  <nav class="navbar" aria-label="Main Navigation">
+    <a href="#" class="logo" id="logo" aria-label="Back to top"> AS </a>
+
+    <!-- ❌ REMOVED hamburger button -->
+
+    <div class="nav-links" id="main-nav">
+      <a href="#about"><i class="fas fa-user"></i>About</a>
+      <a href="#resume"><i class="fas fa-file"></i>Resume</a>
+      <a href="#connections"><i class="fas fa-users"></i>Connections</a>
+      <a href="#certifications"><i class="fas fa-certificate"></i>Certs</a>
+      <a href="#contact"><i class="fas fa-envelope"></i>Contact</a>
+
+      <!-- OPTIONAL: keep or remove -->
+      <button class="theme-toggle" aria-label="Toggle dark/light theme">
+        <span class="theme-icon light-icon">
+          <i class="fas fa-sun"></i>
+        </span>
+        <span class="theme-icon dark-icon">
+          <i class="fas fa-moon"></i>
+        </span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+    <main>
+      <section id="about" class="hero-section about-section">
+        <div class="hero-content" id="hero-content"></div>
+        <ul id="hero-social" class="social-links"></ul>
+        <div id="about-interests" class="about-interests"></div>
+        <div id="about-contact" class="about-contact"></div>
+      </section>
+
+      <section id="resume" class="resume-section">
+        <h2>Resume</h2>
+        <div id="resume-pdf" class="resume-pdf"></div>
+        <div id="resume-education" class="resume-subsection"></div>
+        <div id="resume-experience" class="resume-subsection"></div>
+        <div id="resume-technical-skills" class="resume-subsection">
+          <h3>Technical Skills</h3>
+          <div id="technical-skills-grid" class="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="connections" class="connections-section">
+        <h2>Connections</h2>
+        <div id="connections-categories" class="category-tabs"></div>
+        <div id="connections-grid" class="connections-grid">
+          <div class="slider-container">
+            <div class="connections-slider" id="connections-slider"></div>
+            <div class="slider-controls">
+              <button class="slider-btn prev-btn" aria-label="Previous slide">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="slider-btn next-btn" aria-label="Next slide">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="slider-dots" id="slider-dots"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certifications" class="certifications-section">
+        <h2>Certifications</h2>
+        <div id="certifications-grid" class="certifications-grid"></div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form id="contact-form" class="contact-form">
+          <input type="text" id="form-name" name="form-name" placeholder="Full Name" required />
+          <input
+            type="email"
+            id="form-email"
+            name="form-email"
+            placeholder="Email Address"
+            required
+          />
+          <input type="tel" id="form-phone" name="form-phone" placeholder="Phone Number" />
+          <select id="form-subject" name="form-subject" required>
+            <option value="">Subject</option>
+            <option value="build-connection">Build Connection</option>
+            <option value="job-offer">Job Offer</option>
+            <option value="inquiry">Inquiry</option>
+            <option value="feedback">Feedback</option>
+            <option value="bug">Bug</option>
+            <option value="other">Other</option>
+          </select>
+          <textarea
+            id="form-message"
+            name="form-message"
+            placeholder="Message"
+            rows="6"
+            required
+          ></textarea>
+          <button type="submit" class="form-submit">Send Message</button>
+          <p class="form-helper">Submitting opens your default email app with the message prefilled.</p>
+        </form>
+      </section>
+    </main>
+
+    <div id="editor-modal" class="editor-modal" hidden>
+      <div class="editor-modal__backdrop" data-close-editor-modal></div>
+      <div
+        class="editor-modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="editor-modal-title"
+      >
+        <div class="editor-modal__header">
+          <h2 id="editor-modal-title">Edit</h2>
+          <button type="button" class="editor-icon-btn" data-close-editor-modal aria-label="Close editor">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <form id="editor-form" class="editor-form"></form>
+      </div>
+    </div>
+
+    <script src="JS/display.js" defer></script>
+    <script src="JS/editor.js" defer></script>
+    <script src="JS/script.js" defer></script>
+    <!-- Service Worker (disabled for local file:// testing) -->
+    <!--
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js");
+        });
+      }
+    </script>
+    -->
+    <script>
+(function () {
+    const isLoggedIn = localStorage.getItem("portfolioLoggedIn");
+
+    if (isLoggedIn !== "true") {
+        window.location.href = "index.html"; // or login.html
+    }
+})();
+</script>
+  </body>
+</html>
