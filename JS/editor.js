@@ -877,7 +877,7 @@ function rerenderExperienceEditor(statusMessage = "Unsaved changes") {
     : "";
 
   wrap.innerHTML = `
-    <h3>Experience</h3>
+    <h3>About</h3>
     ${E.data.resume.experience
       .map(
         (x) => `
